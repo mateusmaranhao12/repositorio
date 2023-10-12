@@ -1,0 +1,26 @@
+.navbar-portfolio {
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .nav-item {
+        margin-right: 10px; // Espaçamento entre os itens
+
+        &:last-child {
+            margin-right: 0; // Remove o espaçamento do último item
+        }
+    }
+
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: #ffe600;
+        }
+    }
+}
