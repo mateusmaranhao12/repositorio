@@ -11,19 +11,19 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link :class="{ active: $route.path === '/sobre' }" to="/sobre"
-                            class="nav-link">Sobre</router-link>
+                            class="nav-link"><i class="fa-solid fa-user"></i> Sobre</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :class="{ active: $route.path === '/conhecimentos' }" to="/conhecimentos"
-                            class="nav-link">Conhecimentos</router-link>
+                            class="nav-link"><i class="fa-brands fa-dev"></i> Conhecimentos</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :class="{ active: $route.path === '/projetos' }" to="/projetos"
-                            class="nav-link">Projetos</router-link>
+                            class="nav-link"><i class="fa-solid fa-code"></i> Projetos</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :class="{ active: $route.path === '/contato' }" to="/contato"
-                            class="nav-link">Contato</router-link>
+                            class="nav-link"><i class="fa-solid fa-phone"></i> Contato</router-link>
                     </li>
                 </ul>
             </div>
