@@ -29,7 +29,7 @@
                 </div>
                 <div v-for="cert in certificados" :key="cert"
                     class="col-md-6 d-flex align-items-center justify-content-center">
-                    <img class="img-fluid" :src="require(`../assets/imgs/${cert}.jpg`)">
+                    <img class="img-fluid img-certificado" :src="require(`../assets/imgs/${cert}.jpg`)">
                 </div>
             </div>
         </div>
