@@ -1,6 +1,6 @@
 <template>
     <navbar></navbar>
-    <h1>Portfolio</h1>
+    <router-view></router-view>
 </template>
 
 <script lang="ts">

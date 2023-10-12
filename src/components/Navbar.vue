@@ -10,20 +10,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                        <router-link :class="{ active: $route.path === '/sobre' }" to="/sobre"
+                            class="nav-link">Sobre</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Conhecimentos</a>
+                        <router-link :class="{ active: $route.path === '/conhecimentos' }" to="/conhecimentos"
+                            class="nav-link">Conhecimentos</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Projetos</a>
+                        <router-link :class="{ active: $route.path === '/projetos' }" to="/projetos"
+                            class="nav-link">Projetos</router-link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contato</a>
+                        <router-link :class="{ active: $route.path === '/contato' }" to="/contato"
+                            class="nav-link">Contato</router-link>
                     </li>
                 </ul>
             </div>
-            
+
         </div>
     </nav>
 </template>
@@ -39,6 +43,4 @@ import { Options, Vue } from 'vue-class-component'
 export default class Navbar extends Vue { }
 </script>
 
-<style lang="scss">
-@import '../scss/navbar.scss';
-</style>
+<style lang="scss">@import '../scss/navbar.scss';</style>
