@@ -8,7 +8,7 @@
     img {
         max-height: 70%;
         border-radius: 2rem;
-        box-shadow: 
+        box-shadow:
             10px 10px 5px rgb(230, 229, 173),
             15px 15px 5px rgb(0, 0, 0);
     }
@@ -45,7 +45,7 @@
     }
 
     .img-certificado {
-        box-shadow: 
+        box-shadow:
             10px 10px 5px rgb(0, 0, 0),
             15px 15px 5px rgb(0, 0, 0);
     }
@@ -103,4 +103,76 @@
             2px 5px 1px #000000,
             4px 7px 1px #000000
     }
+}
+
+.contato {
+
+    h2 {
+
+        background-color: rgb(0, 0, 0);
+        border-radius: 20px;
+        padding: 20px;
+        border: 1px solid yellow;
+
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: rgb(255, 208, 0);
+        margin-top: 50px;
+        text-shadow: 0 1px 2px #070707,
+            1px 3px 1px #000000,
+            2px 5px 1px #000000,
+            4px 7px 1px #000000
+    }
+
+    .redes-sociais {
+
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        padding: 20px;
+        margin-top: 20px;
+        border: 1px solid yellow;
+        background-color: #000000;
+        border-radius: 20px;
+
+        h3 {
+            padding: 10px;
+            text-align: center;
+            color: yellow;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        h6 {
+            color: yellow;
+            text-align: center;
+
+            a {
+                color: yellow;
+                text-decoration: none;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .btn-redes-sociais {
+            background-color: yellow;
+            color: black;
+
+            &:hover {
+                background-color: black;
+                color: yellow;
+                border: 1px solid yellow;
+            }
+        }
+    }
+
 }
