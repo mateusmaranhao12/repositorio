@@ -28,7 +28,7 @@
         &.active {
             color: $yellow2;
             position: $relative;
-            cursor: default;
+            cursor: $default;
             border-radius: 10px;
             border: 1px $solid $yellow2;
         }
