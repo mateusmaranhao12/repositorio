@@ -1,11 +1,13 @@
+@import 'variaveis';
+
 .navbar-portfolio {
     background-color: rgb(20, 20, 20);
     padding: 20px;
 
     .navbar-nav {
-        display: flex;
-        align-items: center;
-        margin-left: auto;
+        display: $flex;
+        align-items: $center;
+        margin-left: $auto;
     }
 
     .nav-item {
@@ -17,31 +19,31 @@
     }
 
     .nav-link {
-        color: white;
+        color: $white;
 
         &:hover {
-            color: #ffe600;
+            color: $yellow2;
         }
 
         &.active {
-            color: #ffe600;
-            position: relative;
+            color: $yellow2;
+            position: $relative;
             cursor: default;
             border-radius: 10px;
-            border: 1px solid #ffe600;
+            border: 1px $solid $yellow2;
         }
 
         &.active:after {
             content: '';
-            position: absolute;
+            position: $absolute;
             bottom: -3px;
             left: 0;
             width: 100%;
-            border-bottom: none;
+            border-bottom: $none;
         }
     }
 }
 
 h1 {
-    color: white;
+    color: $white;
 }
