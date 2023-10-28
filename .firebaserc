@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfolio-8a951"
-  }
+    "default": "portfolio-mateus-maranhao",
+    "portfolio": "portfolio-mateus-maranhao"
+  },
+  "targets": {},
+  "etags": {}
 }
