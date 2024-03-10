@@ -28,7 +28,7 @@
                     <h1>Certificados</h1>
                 </div>
                 <div v-for="cert in certificados" :key="cert"
-                    class="col-md-6 d-flex align-items-center justify-content-center">
+                    class="col-md-4 d-flex align-items-center justify-content-center">
                     <img class="img-fluid img-certificado" :src="require(`../assets/imgs/${cert}.jpg`)">
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default class Sobre extends Vue {
     ]
 
     certificados = [
-        'cert_vue', 'cert_dw_completo'
+        'cert_vue', 'cert_dw_completo', 'certificado_wise_up'
     ]
 
 }
